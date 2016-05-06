@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+body::-webkit-scrollbar { display:none; }
+
+body {
+  background:#34aadc;
+  font-family:'HelveticaNeue-Light', Roboto;
+  color:#fff;
+}
+
+.content {
+  position:fixed;
+  left:50%;
+  margin-left:-250px;
+  top:50px;
+  width:500px;
+}
+
+.intro {
+  width:100%;
+  text-align:center;
+  font-size:40px;
+  margin:0px 0 20px;
+}
+
+.text {
+  font-size:22px;
+  padding-left:2%;
+  height:30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#bitcoin {
+  width:30px;
+}
+
+.credit {
+  margin-top:14px;
+  font-size:14px;
+  font-style:italic;
+}
+
+.arrow {
+  text-align:center;
+  margin-top:80px;
+  font-size:46px;
+  backface-visiblilty:hidden;
+}

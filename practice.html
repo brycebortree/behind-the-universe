@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="practice.css" type="text/css">
+</head>
+
+<div class="content">
+  <div class="intro"
+       data-0="transform:translateY(65px);"
+       data-500="transform:translateY(0px);">Scroll to see the effect</div>
+  <div class="arrow"
+       data-0="opacity:1; display:block; transform:translateY(-10px);"
+       data-400="opacity:0; display:none; transform:translateY(-45px);">▾</div>
+  <p class="text"
+       data-500="width:0%; opacity:0;"
+       data-1500="width:98%; opacity:1;">
+  This text i manipulated by the skrollr js script.</p>
+  <p class="text"
+       data-1000="width:0%; opacity:0;"
+       data-2500="width:98%; opacity:1;">
+  Nearly everything is changed in the HTML code</p>
+  <p class="text"
+       data-2000="width:0%; opacity:0;"
+       data-3500="width:98%; opacity:1;">
+  but with the data-attribute and CSS. So please try it!</p>
+  <p class="text"
+       data-3000="width:0%; opacity:0;"
+       data-4500="width:98%; opacity:1;">
+  Images <img id="bitcoin" src="https://cdn4.iconfinder.com/data/icons/payment-method/160/payment_method_bitcoin-256.png" alt="" /> are also supported :D</p>
+  <p class="text credit"
+       data-4000="width:0%; opacity:0;"
+       data-5500="width:98%; opacity:1;">
+  Made by Joacim Nilsson with help from Alexander Prinzhorn</p>
+</div>
+
+  <!-- javascript -->
+    <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init({
+    smoothScrolling: true
+    });
+    </script>
+</body>
+</html>
