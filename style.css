@@ -1,0 +1,18 @@
+h1 {
+  color: blue;
+  font-family: 'Cabin', sans-serif;
+  margin: 20px;
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+
+p {
+  color: darkgreen;
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.center {
+  text-align: center;
+}
