@@ -1,0 +1,108 @@
+p {
+  color: dimgrey;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+p.first {
+  padding-top: 0px;
+}
+
+.center {
+  text-align: center;
+}
+se
+.story {
+  padding-top: 50px;
+}
+
+section.pic{
+  height: 500px !important;
+}
+
+div.top-container {
+  height: 625px;
+  width: 100%;
+  text-align: center;
+  padding: 10% 0 15% 0;
+  background-image:url('assets/gorgsky.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bigwhite {
+  color:white;
+  font-size: 30px;
+}
+
+p.scroll_tip {
+  font-family: 'Baskerville', sans-serif;
+  color: white;
+  margin: 0 auto;
+  width: 500px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -120px;
+
+}
+
+.story p:first-of-type:first-letter {
+  color: #903;
+  font-size: 3em;
+  line-height: 1px;
+  margin-right: -1px;
+}
+
+.hsContainer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  opacity: 1 !important;
+}
+
+.hsContent {
+  max-width: 450px;
+  margin: -150px auto 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  padding: 0 8%;
+  text-align: center;
+  }
+
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  }
+
+/* pretty pics */
+.pic1 .bcg {background-image:url('assets/shopfront.jpeg')}
+.pic2 .bcg {background-image:url('assets/flowershop.jpeg')}
+.pic3 .bcg {background-image:url('assets/Kant017.jpg')}
+.pic4 .bcg {background-image:url('assets/sky1.jpeg')}
+.pic5 .bcg {background-image:url('assets/sky2.jpeg')}
+.pic6 .bcg {background-image:url('assets/womanwindow.jpeg')}
+.pic7 .bcg {background-image:url('assets/whiteflowers.jpeg')}
+.pic8 .bcg {background-image:url('assets/gorgsky.jpeg')}
+.pic9 .bcg {background-image:url('assets/blueflowers.jpeg')}
+
+
+
+@media only screen and (min-width: 767px) { 
+  body {
+    .top-container {
+      background-image:url('assets/gorgsky.jpeg');
+      background-size: 100%;
+    }
+}
