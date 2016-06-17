@@ -97,7 +97,10 @@ p.scroll_tip {
 .pic8 .bcg {background-image:url('assets/gorgsky.jpeg')}
 .pic9 .bcg {background-image:url('assets/blueflowers.jpeg')}
 
-
+/*contact icons*/
+.contact-icons {
+  margin-top: 50px;
+}
 
 @media only screen and (min-width: 767px) { 
   body {
@@ -106,3 +109,4 @@ p.scroll_tip {
       background-size: 100%;
     }
 }
+
