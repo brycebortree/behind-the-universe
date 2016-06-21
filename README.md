@@ -1,6 +1,8 @@
 <h1> Behind the Universe </h1>
 <p> a weekend long front-end hackathon & short story </p>
 
+<img src="./css/images/flowsig.gif"/>
+
 <h2>Technologies Learned</h2>
 <p> Foundation, Skrollr </p>
 
