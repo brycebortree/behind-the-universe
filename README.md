@@ -17,9 +17,10 @@
 <h2>Other Technologies Used</h2>
 <p> Javascript, CSS, HTML, JQuery & a little magic </p>
 
-<h2>Installation</h2>
+<h2>Installing</h2>
 <p>Copy and clone to computer. Open the index.html file in browser. </p>
 
+<h2>Contributing Content</h2>
 <p> images used from unsplash </p>
 
 <img src="./css/images/suffering.png"/>
